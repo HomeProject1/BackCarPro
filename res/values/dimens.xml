@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="branch_title">12dip</dimen>
+    <dimen name="childpage_title_height">48dip</dimen>
+    <dimen name="childpage_height">38dip</dimen>
+    <dimen name="childpage_title_margin">10dip</dimen>
+    <dimen name="childpage_item">44dip</dimen>
+    <dimen name="page_topline">11dip</dimen>
+    <dimen name="margin_loginleft">16dip</dimen>
+    <dimen name="margin_iconleft">25dip</dimen>
+    <dimen name="margin_iconpadding">10dip</dimen>
+    <dimen name="text_small">12sp</dimen>
+     <dimen name="text_small_icon">10sp</dimen>
+    <dimen name="childpage_title">20sp</dimen>
+    <dimen name="childpage_title_save">18sp</dimen>
+    <dimen name="keytext_size">15sp</dimen>
+    <dimen name="valuetext_size">1sp</dimen>
+    <dimen name="head_keytext_size">16sp</dimen>
+    <dimen name="head_valuetext_size">16sp</dimen>
+ <dimen name="slidingmenu_offset">50.0dip</dimen>
+    <dimen name="shadow_width">5.0dip</dimen>
+    
+     <dimen name="user_image">70.0dip</dimen>
+     <dimen name="text_menu">13sp</dimen>
+     
+      <dimen name="login_width">290.0dip</dimen>
+     <dimen name="login_height">44.0dip</dimen>
+     <dimen name="delete_action_len">60dip</dimen>
+     <dimen name="pull_len">10dip</dimen>
+       <dimen name="huan_param">150dip</dimen>
+        <dimen name="big_text">50sp</dimen>
+         <dimen name="pay_height">42sp</dimen>
+           <dimen name="text_unit">18sp</dimen>
+            <dimen name="height_unit">-2dp</dimen>
+            <dimen name="padding_pop">30dp</dimen>
+             <dimen name="list_top">18dp</dimen>
+             <dimen name="list_top_short">6dp</dimen>
+</resources>
