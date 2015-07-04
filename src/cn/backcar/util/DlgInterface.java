@@ -1,6 +1,6 @@
 package cn.backcar.util;
 /**
- *  对话框的回调接口
+ * 
  * @author yangzhiwei
  *
  */

@@ -17,7 +17,7 @@ public class TopView extends LinearLayout {
 	public Context con;
 	public TextView tv_right;
 	private onAddClck addclcik;
-   private ImageView iv;
+    private ImageView iv;
 	public TopView(Context context) {
 		super(context);
 	}

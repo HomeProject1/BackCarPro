@@ -3,13 +3,9 @@ package cn.backcar.util;
 import android.os.Environment;
 
 public class Constant {
-	public static final String Unit_Height = "cm";
-	public static final String Unit_Weight = "kg";
-	public static final String Unit_Pirce = "ÍòÔª";
-	public static final String Unit_Base = "¸ö";
-	public static final String Unit_Min = "·ÖÖÓ";
+	
 
-	public static final String[] Type_Sex = { "ÄÐ", "Å®" };
+	
 	public static final int TYPE_EDIT = 71;
 	public static final int TYPE_LIST = 72;
 	public static final int TYPE_MUTILIST = 73;
@@ -22,7 +18,7 @@ public class Constant {
 	public static final int Choose_Image = 106;
 	public static final String Intent_Name = "object";
 	public static final String Intent_ValueBack = "value";
-	public static final String Common_Remind = "ÇëÉÔµÈÆ¬¿Ì...";
+	public static final String Common_Remind = "ï¿½ï¿½ï¿½Ôµï¿½Æ¬ï¿½ï¿½...";
 	public static final String BasePath = Environment
 			.getExternalStorageDirectory().toString() + "/backcar/";
 	public static final String cameraBitmapPath = BasePath + "image/";

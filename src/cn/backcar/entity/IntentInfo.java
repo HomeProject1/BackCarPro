@@ -1,4 +1,4 @@
-package cn.backcar.entiy;
+package cn.backcar.entity;
 
 import java.io.Serializable;
 
@@ -11,10 +11,10 @@ public class IntentInfo implements Serializable {
 	public String key = "";
 	public String value = "";
 	public int type;
-	public int length;//³¤¶ÈÏÞÖÆ
-	public String unit = "";// µ¥Î»
+	public int length;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+	public String unit = "";// ï¿½ï¿½Î»
 	
-	public boolean needEdit;// ÊÇ·ñÔÊÐíÊäÈë
+	public boolean needEdit;// ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 	public IntentInfo() {
 

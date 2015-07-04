@@ -33,12 +33,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import cn.backcar.MyApplication;
 import cn.backcar.R;
-import cn.backcar.entiy.IntentInfo;
+import cn.backcar.entity.IntentInfo;
 import cn.backcar.widget.TopView;
 import cn.backcar.widget.TopView.onAddClck;
 
 /**
- * ¶Ô»°¿òÀà
+ * ï¿½Ô»ï¿½ï¿½ï¿½ï¿½ï¿½
  * 
  * @author yangzhiwei
  * 
@@ -56,7 +56,7 @@ public class Mdialog {
 	MyApplication app;
 	int system_height, system_width, system_guide_height, system_state_height;
 	JudgeMethods judge;
-	boolean isLoadingCancel = true;// ½ø¶ÈÌõÊÇ·ñÄÜÈ¡Ïû
+	boolean isLoadingCancel = true;// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½È¡ï¿½ï¿½
 
 	public boolean isLoadingCancel() {
 		return isLoadingCancel;
@@ -78,16 +78,16 @@ public class Mdialog {
 	}
 
 	/**
-	 * ÈÕÆÚÑ¡Ôñ¿ò
+	 * ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½
 	 * 
 	 * @param title
-	 *            ±êÌâ
+	 *            ï¿½ï¿½ï¿½ï¿½
 	 * @param str
-	 *            ´øÈëµÄÄÚÈÝ
+	 *            ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param type
-	 *            ÀàÐÍ 0È«²¿ÏÔÊ¾ 1Ö»ÏÔÊ¾ÔÂÈÕ
+	 *            ï¿½ï¿½ï¿½ï¿½ 0È«ï¿½ï¿½ï¿½ï¿½Ê¾ 1Ö»ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½
 	 * @param dlg
-	 *            »Øµ÷½Ó¿Ú
+	 *            ï¿½Øµï¿½ï¿½Ó¿ï¿½
 	 */
 	@SuppressLint({ "NewApi", "SimpleDateFormat" })
 	public void showDateDialog(String title, String str, final int type,
@@ -95,7 +95,7 @@ public class Mdialog {
 		Date date = null;
 		SimpleDateFormat sdf = null;
 		if (str.equals("")) {
-			date = new Date(); // »ñÈ¡µ±Ç°ÈÕÆÚDate¶ÔÏó
+			date = new Date(); // ï¿½ï¿½È¡ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Dateï¿½ï¿½ï¿½ï¿½
 		} else {
 			if (type == 1) {
 
@@ -117,11 +117,11 @@ public class Mdialog {
 
 		Calendar mycalendar = Calendar.getInstance(Locale.CHINA);
 
-		mycalendar.setTime(date);// //ÎªCalendar¶ÔÏóÉèÖÃÊ±¼äÎªµ±Ç°ÈÕÆÚ
+		mycalendar.setTime(date);// //ÎªCalendarï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Îªï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½
 
-		int year = mycalendar.get(Calendar.YEAR); // »ñÈ¡Calendar¶ÔÏóÖÐµÄÄê
-		int month = mycalendar.get(Calendar.MONTH);// »ñÈ¡Calendar¶ÔÏóÖÐµÄÔÂ
-		int day = mycalendar.get(Calendar.DAY_OF_MONTH);// »ñÈ¡Õâ¸öÔÂµÄµÚ¼¸Ìì
+		int year = mycalendar.get(Calendar.YEAR); // ï¿½ï¿½È¡Calendarï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½
+		int month = mycalendar.get(Calendar.MONTH);// ï¿½ï¿½È¡Calendarï¿½ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½
+		int day = mycalendar.get(Calendar.DAY_OF_MONTH);// ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ÂµÄµÚ¼ï¿½ï¿½ï¿½
 		DatePickerDialog.OnDateSetListener onDateSetListener = new DatePickerDialog.OnDateSetListener() {
 			public void onDateSet(DatePicker view, int year, int monthOfYear,
 					int dayOfMonth) {
@@ -158,7 +158,7 @@ public class Mdialog {
 	}
 
 	/**
-	 * ÏÔÊ¾ÊäÈë¶Ô»°¿ò
+	 * ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ô»ï¿½ï¿½ï¿½
 	 * 
 	 * @param info
 	 * @param inter
@@ -192,7 +192,7 @@ public class Mdialog {
 		}
 		topview = (TopView) view.findViewById(R.id.title_bar);
 		topview.setTitle(info.key);
-		topview.setRightText("Íê³É");
+		topview.setRightText("ï¿½ï¿½ï¿½");
 		topview.setAddClick(new onAddClck() {
 
 			@Override
@@ -284,7 +284,7 @@ public class Mdialog {
 	Toast toast;
 
 	/**
-	 * ÌáÊ¾¿ò ¿É×Ô¶¨ÒåVIEW
+	 * ï¿½ï¿½Ê¾ï¿½ï¿½ ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½VIEW
 	 * 
 	 * @param context
 	 * 
@@ -302,7 +302,7 @@ public class Mdialog {
 	}
 
 	/**
-	 * ÌáÊ¾¿ò ¿É×Ô¶¨ÒåVIEW
+	 * ï¿½ï¿½Ê¾ï¿½ï¿½ ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½VIEW
 	 * 
 	 * @param context
 	 * 
@@ -339,7 +339,7 @@ public class Mdialog {
 	};
 
 //	/**
-//	 * ×Ô¶¨Òå½ø¶ÈÌõ
+//	 * ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //	 *
 //	 * @param context
 //	 *
@@ -409,7 +409,7 @@ public class Mdialog {
 //		});
 //		myLoadingDlg = new Dialog(context, R.style.FullHeightDialog);
 //		myLoadingDlg.setContentView(view);
-//		/** ÉèÖÃÑ¡Ôñ¿ò¾ÓÖÐÏÔÊ¾ */
+//		/** ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ */
 //		// Window window = myLoadingDlg.getWindow();
 //		// window.setGravity(Gravity.CENTER);
 //
@@ -441,7 +441,7 @@ public class Mdialog {
 //	}
 //
 //	/**
-//	 * ½ø¶ÈÌõ
+//	 * ï¿½ï¿½ï¿½ï¿½ï¿½
 //	 * 
 //	 * @param context
 //	 * 
